@@ -387,6 +387,16 @@ button{
 }
 
 
+/* = Panels
+-------------------------------------------------------------- */
+.panel{
+	border:0;
+	box-shadow: 0 0 2px rgba(0,0,0,.4);
+}
+.panel-heading, .panel-footer{
+	background-color: inherit;
+	border-color: rgba(0,0,0,.1)!important;
+}
 .panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
 	border-radius:0;
 }
@@ -556,6 +566,11 @@ h3{
 .bgc-white{
 	background-color:#ffffff;
 }
+/* Text colour styles */
+
+.tc-medium-jungle-green{
+	color:#282E30!important;
+}
 /* Button colour styles */
 
 .wire-btn-blue-ncs{
@@ -564,6 +579,12 @@ h3{
 }
 /* Link colour styles */
 
+.ltc-medium-jungle-green{
+	color:#282E30!important;
+}
+.ltc-medium-jungle-green:hover{
+	color:#202526!important;
+}
 .ltc-blue-ncs{
 	color:#008DC7!important;
 }
