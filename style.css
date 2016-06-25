@@ -197,7 +197,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-2 h3{
+#bloc-21 h3{
 	font-weight: 800;
 	font-family: Josefin Sans;
 }
@@ -367,9 +367,8 @@ button{
 	background:transparent!important;
 	border:2px solid transparent;
 }
-.btn-xl{
-	padding: 16px 40px;
-	font-size: 28px;
+.icon-spacer{
+	margin-right:5px;
 }
 .btn .caret{
 	margin:0 0 0 5px}.dropdown a .caret{
@@ -580,6 +579,19 @@ h3{
 	font-family:"Josefin Sans";
 	font-size:36px;
 }
+.mount-italy-hero-text-s{
+	font-size:60px;
+}
+.mount-italy-hero-text-sub-s{
+	font-size:34px;
+}
+.full-width-button{
+	display:block;
+	width:98%;
+}
+.onethird-width-button{
+	width:32%;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -596,6 +608,38 @@ h3{
 }
 /* Button colour styles */
 
+.btn-blue-ncs{
+	background:#008DC7;
+	color:#FFFFFF!important;
+}
+.btn-blue-ncs:hover{
+	background:#00719f;
+	color:#FFFFFF!important;
+}
+.btn-carrot-orange{
+	background:#FC9316;
+	color:#FFFFFF!important;
+}
+.btn-carrot-orange:hover{
+	background:#ca7612;
+	color:#FFFFFF!important;
+}
+.btn-medium-jungle-green{
+	background:#282E30;
+	color:#FFFFFF!important;
+}
+.btn-medium-jungle-green:hover{
+	background:#202526;
+	color:#FFFFFF!important;
+}
+.btn-white{
+	background-color:#ffffff;
+	color:rgba(0,0,0,.4)!important;
+}
+.btn-white:hover{
+	background-color:#dedede;
+	color:rgba(0,0,0,.4)!important;
+}
 .wire-btn-blue-ncs{
 	color:#008DC7!important;
 	border-color:#008DC7!important;
@@ -653,9 +697,6 @@ h3{
 .bg-mountainsdusk{
 	background-image:url("img/mountainsdusk.jpg");
 }
-.bg-cornfield{
-	background-image:url("img/cornfield.jpg");
-}
 .bg-lines-h-bg{
 	background-image:url("img/lines-h-bg.png");
 }
@@ -664,6 +705,12 @@ h3{
 }
 .bg-lines-h-bg{
 	background-image:url("img/lines-h-bg.png");
+}
+.bg-lines-h-bg{
+	background-image:url('img/lines-h-bg.png');
+}
+.bg-field{
+	background-image:url('img/field.jpg');
 }
 
 
