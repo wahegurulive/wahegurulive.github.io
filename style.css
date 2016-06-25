@@ -327,6 +327,10 @@ nav .caret{
 .mg-clear{
 	margin:0;
 }
+.mg-sm{
+	margin-top:10px;
+	margin-bottom:5px;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -410,6 +414,22 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
+/* = Dividers
+-------------------------------------------------------------- */
+.divider-h{
+	padding:20px 0;
+}
+.divider-h span{
+	display: block;
+	border-top:1px solid transparent;
+}
+.divider-half{
+	width: 50%;
+	margin: 0 auto;
+}
+.dropdown-menu .divider-h,.dropdown-menu .divider-half{
+	padding:0;
+}
 
 
 /* iFrame */
@@ -420,6 +440,9 @@ iframe{
 /* = Carousel
 -------------------------------------------------------------- */
 
+.carousel{
+	display:inline-block;
+}
 .carousel .item img{
 	margin-right:auto;
 	margin-left:auto;
@@ -638,6 +661,9 @@ h3{
 }
 .bg-header6-1024x181-wo-box{
 	background-image:url("img/header6-1024x181%20wo%20box.png");
+}
+.bg-lines-h-bg{
+	background-image:url("img/lines-h-bg.png");
 }
 
 
