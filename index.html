@@ -8,95 +8,141 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="./css/animate.min.css" /><link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css"><link rel='stylesheet' href='./css/font-awesome.min.css'/><link href='https://fonts.googleapis.com/css?family=Ubuntu&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
     <title>Gurdwara Prabh Milne Ka Chao Moga</title>
+<link href='https://fonts.googleapis.com/earlyaccess/notosansgurmukhi.css' rel='stylesheet' type='text/css'>
 
+<style>
+.welcome-bloc{
+width: 100%;
+height: 100%;
+position: fixed !important;
+background-size: cover !important;
+-webkit-background-size: cover !important; 
+-moz-background-size: cover !important; 
+-o-background-size: cover !important;
+}
+
+.welcome-bottom-bloc{
+	position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.gurmukhi-font{
+	font-family: 'Noto Sans Gurmukhi', sans-serif !important;
+}
+</style>
 </head>
 <body>
 <!-- Main container -->
 <div class="page-container">
-    <!-- bloc-1 --><div class="bloc hidden-lg hidden-md bg-lines-h-bg bg-repeat bgc-white l-bloc" id="bloc-1">
-	<div class="container">
-		<nav class="navbar nav-center row">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/logo-menu.png" width="128" height="128" /></a>
-				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
-					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-				</button>
-			</div>
-			<div class="navbar-collapse navbar-1 collapse">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="live-radio.html">Live Radio</a>
-					</li>
-					<li>
-						<a href="live-video.html">Live Video</a>
-					</li>
-					<li>
-						<a href="about-bhai-sahib.html">About Us</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-	</div>
-</div><!-- bloc-1 END --><!-- bloc-2 --><div class="bloc bloc-fill-screen hidden-sm hidden-xs bgc-white bg-field d-bloc" id="bloc-2">
+    <!-- welcome-top-bloc-mobile --><div class="bloc bg-lines-h-bg bg-repeat hidden-lg hidden-md bgc-white l-bloc hidden-sm" id="welcome-top-bloc-mobile">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="mountain-hero-text animated fadeInUp text-left tc-medium-jungle-green">
-					Gurdwara Prabh Milne Ka Chao
-				</h1>
-				<h3 class="mg-lg mountain-hero-text-sub animated fadeInUp animDelay06, .animDelay04-hvr text-left tc-medium-jungle-green">
-					Brahm Gyan University
-				</h3>
-				<div class="row">
-					<div class="col-sm-6">
-						<a href="home.html" class="btn    btn-lg onethird-width-button btn-blue-ncs"><span class="fa fa-home icon-spacer"></span>Home</a><a href="live-radio.html" class="btn    btn-lg onethird-width-button btn-carrot-orange"><span class="fa fa-headphones icon-spacer"></span>Live Radio</a><a href="live-video.html" class="btn    btn-lg onethird-width-button btn-medium-jungle-green"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
+				<h4 class="mg-clear text-center tc-medium-jungle-green sm-shadow">
+					ਗੁਰਦੁਅਾਰਾ ਪ੍ਰਭੁ ਮਿਲਣੈ ਕਾ ਚਾੳੁ, ਮੋਗਾ
+				</h4>
+			</div>
+		</div>
+	</div>
+</div><!-- welcome-top-bloc-mobile END --><!-- welcome-top-bloc-tablet --><div class="bloc bg-lines-h-bg bg-repeat hidden-lg hidden-md bgc-white l-bloc hidden-xs" id="welcome-top-bloc-tablet">
+	<div class="container bloc-sm">
+		<div class="row">
+			<div class="col-sm-12">
+				<h4 class="mg-clear text-center tc-medium-jungle-green sm-shadow">
+					ਗੁਰਦੁਅਾਰਾ ਪ੍ਰਭੁ ਮਿਲਣੈ ਕਾ ਚਾੳੁ, ਮੋਗਾ
+				</h4>
+			</div>
+		</div>
+	</div>
+</div><!-- welcome-top-bloc-tablet END --><!-- welcome-bloc-desktop --><div class="bloc bloc-fill-screen lake-hero-bloc bg-welcome-page bg-r-edge hidden-sm hidden-xs bgc-white l-bloc welcome-bloc " id="welcome-bloc-desktop">
+	<div class="container">
+		<div class="row hidden-sm hidden-xs" id="welcome-desktop-row">
+			<div class="col-sm-7">
+				<div class="panel panel-rd welcome-box-shadow bgc-carrot-orange">
+					<div class="panel-body">
+						<h1 class="mg-md  text-center lg-shadow tc-white gurmukhi-font">
+							ਗੁਰਦੁਅਾਰਾ ਪ੍ਰਭੁ ਮਿਲਣੈ ਕਾ ਚਾੳੁ<br>
+						</h1>
+						<h3 class="mg-md text-center lg-shadow tc-white  gurmukhi-font">
+							ਬ੍ਰਹਮ ਗਿਆਨ ਕੇਂਦਰ, ਮੋਗਾ<br>
+						</h3>
 					</div>
-					<div class="col-sm-6">
+				</div>
+				<div class="row voffset-lg">
+					<div class="col-sm-12">
+						<a href="home.html" class="btn   btn-lg onethird-width-button btn-d blue-hover-button">Home</a><a href="live-radio.html" class="btn   btn-lg onethird-width-button btn-d yellow-hover-button">Live Radio</a><a href="live-video.html" class="btn   btn-lg onethird-width-button btn-d red-hover-button">Live Video</a>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-6">
-						<div class="text-center">
-							<a href="about-bhai-sahib.html" class="btn    full-width-button btn-lg btn-white"><span class="fa fa-info icon-spacer"></span>About Us</a>
-						</div>
-					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-12">
+						<a href="about-bhai-sahib.html" class="btn   btn-lg pull-left full-width-button btn-d orange-hover-button">About Us</a>
 					</div>
 				</div>
 			</div>
+			<div class="col-sm-5">
+			</div>
 		</div>
 	</div>
-</div><!-- bloc-2 END --><!-- bloc-3 --><div class="bloc bloc-fill-screen hidden-lg hidden-md bgc-white bg-field d-bloc" id="bloc-3">
+</div><!-- welcome-bloc-desktop END --><!-- welcome-bloc-mobile --><div class="bloc bloc-fill-screen lake-hero-bloc bgc-white bg-welcome-phone-TEST d-bloc bg-center hidden-lg hidden-md welcome-bloc" id="welcome-bloc-mobile">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="mountain-hero-text animated fadeInUp text-left tc-medium-jungle-green">
-					Gurdwara Prabh Milne Ka Chao
-				</h1>
-				<h3 class="mg-lg mountain-hero-text-sub animated fadeInUp animDelay06, .animDelay04-hvr text-left tc-medium-jungle-green">
-					Brahm Gyan University
-				</h3>
 			</div>
 		</div>
 	</div>
-	<div class="container fill-bloc-bottom-edge">
-		<div class="row">
+</div><!-- welcome-bloc-mobile END --><!-- welcome-bottom-bloc-mobile --><div class="bloc hidden-lg hidden-md bg-lines-h-bg bg-repeat bgc-white l-bloc hidden-sm welcome-bottom-bloc" id="welcome-bottom-bloc-mobile">
+	<div class="container">
+		<div class="row" id="welcome-mobile-button-row">
 			<div class="col-sm-12">
+				
+					<div class="wrapper text-center">
+        <div class="btn-group">
+			<a class="btn btn-carrot-orange" href="index.html" data-page="1"><span class="fa fa-home icon-spacer"></span>Home</a> 
+			<a class="btn btn-dark-gray" href="live-radio.html"><span class="fa fa-music icon-spacer"></span>Live Radio</a> 
+			<a class="btn btn-blue-ncs" href="live-video.html"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
+</div></div>
+					
+				</div>
 			</div>
+			<div class="row hide-button-row">
+					<div class="col-sm-12">
+						<a href="index.html" class="btn   pull-left btn-carrot-orange btn-sm"><span class="fa fa-home icon-spacer"></span>Home</a><a href="index.html" class="btn   pull-left btn-sm btn-dark-gray"><span class="fa fa-music icon-spacer"></span>Live Radio</a><a href="index.html" class="btn   pull-left btn-sm btn-blue-ncs"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
+					</div>
+				</div>
 		</div>
 	</div>
-</div><!-- bloc-3 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END-->
+	
+</div><!-- welcome-bottom-bloc-mobile END --><!-- welcome-bottom-bloc-tablet --><div class="bloc hidden-lg hidden-md bg-lines-h-bg bg-repeat bgc-white l-bloc hidden-xs welcome-bottom-bloc" id="welcome-bottom-bloc-tablet">
+	<div class="container bloc-sm">
+		<div class="row" id="welcome-mobile-button-row">
+			<div class="col-sm-12">
+				
+					<div class="wrapper text-center">
+        <div class="btn-group">
+			<a class="btn btn-carrot-orange" href="index.html" data-page="1"><span class="fa fa-home icon-spacer"></span>Home</a> 
+			<a class="btn btn-dark-gray" href="live-radio.html"><span class="fa fa-music icon-spacer"></span>Live Radio</a> 
+			<a class="btn btn-blue-ncs" href="live-video.html"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
+</div></div>
+					
+				</div>
+			</div>
+			<div class="row hide-button-row">
+					<div class="col-sm-12">
+						<a href="index.html" class="btn   pull-left btn-carrot-orange btn-sm"><span class="fa fa-home icon-spacer"></span>Home</a><a href="index.html" class="btn   pull-left btn-sm btn-dark-gray"><span class="fa fa-music icon-spacer"></span>Live Radio</a><a href="index.html" class="btn   pull-left btn-sm btn-blue-ncs"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
+					</div>
+				</div>
+		</div>
+	</div>
+	
+</div><!-- welcome-bottom-bloc-tablet END -->
 </div>
 <!-- Main container END -->
     

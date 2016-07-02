@@ -102,8 +102,14 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	-o-background-size: auto!important;
 	background-size: auto!important;
 }
+.bg-center{
+	-webkit-background-size: auto;
+}
 .bg-repeat{
 	background:repeat;
+}
+.bg-r-edge{
+	background: right no-repeat;
 }
 
 
@@ -197,7 +203,15 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Bloc text custom styling */
 
-#bloc-21 h3{
+#welcome-bloc-desktop h1{
+	font-weight: 300;
+	font-family: Ubuntu;
+}
+#welcome-bloc-desktop h3{
+	font-weight: 700;
+	font-family: Ubuntu;
+}
+#bloc-24 h3{
 	font-weight: 800;
 	font-family: Josefin Sans;
 }
@@ -385,6 +399,12 @@ button{
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
+.sm-shadow{
+	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
+.lg-shadow{
+	text-shadow:0 2px 5px rgba(0,0,0,.5);
+}
 .glow-t{
 	text-shadow:0 0 10px #FFF;
 }
@@ -441,6 +461,10 @@ iframe{
 
 .carousel{
 	display:inline-block;
+	vertical-align:bottom;
+}
+.full-width-bloc .carousel{
+	width:100%;
 }
 .carousel .item img{
 	margin-right:auto;
@@ -592,6 +616,40 @@ h3{
 .onethird-width-button{
 	width:32%;
 }
+.hide-button-row{
+	display:none;
+}
+.welcome-box-shadow{
+	box-shadow:0px 1px 9px #000000;
+}
+.blue-hover-button{
+}
+.blue-hover-button:hover{
+	background-color:#007FB3;
+}
+.yellow-hover-button{
+}
+.yellow-hover-button:hover{
+	background-color:#FFC300;
+}
+.red-hover-button{
+}
+.red-hover-button:hover{
+	background-color:#C60B1E;
+}
+.orange-hover-button{
+}
+.orange-hover-button:hover{
+	background-color:#FEA419;
+}
+.link{
+}
+.welcome-bottom-bloc{
+}
+.gurmukhi-font{
+}
+.welcome-bloc{
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -601,21 +659,19 @@ h3{
 .bgc-white{
 	background-color:#ffffff;
 }
+.bgc-carrot-orange{
+	background-color:#FC9316;
+}
 /* Text colour styles */
 
 .tc-medium-jungle-green{
 	color:#282E30!important;
 }
+.tc-white{
+	color:#ffffff!important;
+}
 /* Button colour styles */
 
-.btn-blue-ncs{
-	background:#008DC7;
-	color:#FFFFFF!important;
-}
-.btn-blue-ncs:hover{
-	background:#00719f;
-	color:#FFFFFF!important;
-}
 .btn-carrot-orange{
 	background:#FC9316;
 	color:#FFFFFF!important;
@@ -624,21 +680,21 @@ h3{
 	background:#ca7612;
 	color:#FFFFFF!important;
 }
-.btn-medium-jungle-green{
-	background:#282E30;
+.btn-dark-gray{
+	background:#A4A3A5;
 	color:#FFFFFF!important;
 }
-.btn-medium-jungle-green:hover{
-	background:#202526;
+.btn-dark-gray:hover{
+	background:#838284;
 	color:#FFFFFF!important;
 }
-.btn-white{
-	background-color:#ffffff;
-	color:rgba(0,0,0,.4)!important;
+.btn-blue-ncs{
+	background:#008DC7;
+	color:#FFFFFF!important;
 }
-.btn-white:hover{
-	background-color:#dedede;
-	color:rgba(0,0,0,.4)!important;
+.btn-blue-ncs:hover{
+	background:#00719f;
+	color:#FFFFFF!important;
 }
 .wire-btn-blue-ncs{
 	color:#008DC7!important;
@@ -691,9 +747,6 @@ h3{
 .bg-lines-h-bg{
 	background-image:url("img/lines-h-bg.png");
 }
-.bg-mountains-italy{
-	background-image:url("img/mountains-italy.jpg");
-}
 .bg-mountainsdusk{
 	background-image:url("img/mountainsdusk.jpg");
 }
@@ -707,10 +760,22 @@ h3{
 	background-image:url("img/lines-h-bg.png");
 }
 .bg-lines-h-bg{
-	background-image:url('img/lines-h-bg.png');
+	background-image:url("img/lines-h-bg.png");
 }
 .bg-field{
-	background-image:url('img/field.jpg');
+	background-image:url("img/field.jpg");
+}
+.bg-lines-h-bg{
+	background-image:url("img/lines-h-bg.png");
+}
+.bg-lines-h-bg{
+	background-image:url("img/lines-h-bg.png");
+}
+.bg-welcome-page{
+	background-image:url("img/welcome-page.jpg");
+}
+.bg-welcome-phone-TEST{
+	background-image:url("img/welcome_phone_TEST.JPG");
 }
 
 
@@ -722,6 +787,10 @@ h3{
     .bloc{
         padding-left: 20px; 
         padding-right: 20px;  
+    }
+    .bloc.full-width-bloc{
+        padding-left: 0; 
+        padding-right: 0;  
     }
 }
 @media (max-width: 768px)
@@ -862,9 +931,14 @@ h3{
     .close-lightbox{
         display:inline-block;
     }
+ 
     .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
         margin-top: 30px;
         margin-bottom: 30px;
+    }
+.full-width-bloc .col-xs-2, .full-width-bloc .col-sm-2, .full-width-bloc .col-md-2, .full-width-bloc .col-lg-2, .full-width-bloc .col-xs-3, .full-width-bloc .col-sm-3, .full-width-bloc .col-md-3, .full-width-bloc .col-lg-3, .full-width-bloc .col-xs-4, .full-width-bloc .col-sm-4, .full-width-bloc .col-md-4, .full-width-bloc .col-lg-4, .full-width-bloc .col-xs-5, .full-width-bloc .col-sm-5, .full-width-bloc .col-md-5, .full-width-bloc .col-lg-5, .full-width-bloc .col-xs-6, .full-width-bloc .col-sm-6, .full-width-bloc .col-md-6, .full-width-bloc .col-lg-6, .full-width-bloc .col-xs-7, .full-width-bloc .col-sm-7, .full-width-bloc .col-md-7, .full-width-bloc .col-lg-7, .full-width-bloc .col-xs-8, .full-width-bloc .col-sm-8, .full-width-bloc .col-md-8, .full-width-bloc .col-lg-8, .full-width-bloc .col-xs-9, .full-width-bloc .col-sm-9, .full-width-bloc .col-md-9, .full-width-bloc .col-lg-9, .full-width-bloc .col-xs-10, .full-width-bloc .col-sm-10, .full-width-bloc .col-md-10, .full-width-bloc .col-lg-10, .full-width-bloc .col-xs-11, .full-width-bloc .col-sm-11, .full-width-bloc .col-md-11, .full-width-bloc .col-lg-11, .full-width-bloc .col-xs-12, .full-width-bloc .col-sm-12, .full-width-bloc .col-md-12, .full-width-bloc .col-lg-12 {
+        margin-top: 0;
+        margin-bottom: 0;
     }
     .video-bg-contianer{
         display:none;
