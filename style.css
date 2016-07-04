@@ -105,8 +105,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .bg-repeat{
 	background:repeat;
 }
-.bg-r-edge{
-	background: right no-repeat;
+.bg-tr-edge{
+	background: top right no-repeat;
 }
 
 
@@ -693,6 +693,22 @@ h3{
 	background:#00719f;
 	color:#FFFFFF!important;
 }
+.btn-verdigris{
+	background:#36B3A7;
+	color:#FFFFFF!important;
+}
+.btn-verdigris:hover{
+	background:#2b8f86;
+	color:#FFFFFF!important;
+}
+.btn-fire-engine-red{
+	background:#CD201F;
+	color:#FFFFFF!important;
+}
+.btn-fire-engine-red:hover{
+	background:#a41a19;
+	color:#FFFFFF!important;
+}
 .wire-btn-blue-ncs{
 	color:#008DC7!important;
 	border-color:#008DC7!important;
@@ -768,14 +784,14 @@ h3{
 .bg-lines-h-bg{
 	background-image:url("img/lines-h-bg.png");
 }
-.bg-welcome-page{
-	background-image:url("img/welcome-page.jpg");
-}
 .bg-welcome-phone-TEST{
 	background-image:url("img/welcome_phone_TEST.JPG");
 }
 .bg-welcome-phone-TEST{
-	background-image:url('img/welcome_phone_TEST.JPG');
+	background-image:url("img/welcome_phone_TEST.JPG");
+}
+.bg-welcome-page-3-1{
+	background-image:url('img/welcome-page-3.1.jpg');
 }
 
 
