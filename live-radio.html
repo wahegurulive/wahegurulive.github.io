@@ -15,7 +15,9 @@
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
     <title>Live Radio </title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazyloadjs/3.2.2/lazyload.min.js"></script>
+<script>window.lazySizesConfig=window.lazySizesConfig ||{};lazySizesConfig.preloadAfterLoad=true;lazySizesConfig.loadMode=0;</script>
+<style>.lazyload{opacity: 0;}.lazyloading{opacity: 0.5; transition: opacity 300ms; background: url(img/pageload-spinner.gif) no-repeat center;}.lazyloaded{opacity: 1; transition: opacity 300ms;}</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/2.0.0/lazysizes.min.js" async=""></script>
 </head>
 <body>
 <!-- Main container -->
@@ -129,7 +131,7 @@
 					Waheguru Live
 				</h2>
 				
-					<iframe src="about:blank" data-src="https://tunein.com/embed/player/s176004/" style="width:100%;height:100px;" scrolling="no" frameborder="no" onload="lzld(this)"></iframe>
+					<iframe src="about:blank" data-src="https://tunein.com/embed/player/s176004/" style="width:100%;height:100px;" scrolling="no" frameborder="0" class="lazyload"></iframe>
 					<a href="http://tunein.com/radio/Gurdwara-Prabh-Milne-Ka-Chao-s176004/" class="btn   btn-lg btn-block hidden-lg hidden-md btn-verdigris" target="_blank"><span class="fa fa-external-link-square icon-spacer"></span>TuneIn Radio link</a>
 				</div>
 			</div>
