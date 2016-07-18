@@ -15,8 +15,6 @@
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
     <title>Gurdwara Prabh Milne Ka Chao Moga</title>
-<link href='https://fonts.googleapis.com/earlyaccess/notosansgurmukhi.css' rel='stylesheet' type='text/css'>
-
 <style>
 .welcome-bloc{
 width: 100%;
@@ -33,117 +31,55 @@ background-size: cover !important;
     left: 0;
     right: 0;
     bottom: 0;
-}
-.gurmukhi-font{
-	font-family: 'Noto Sans Gurmukhi', sans-serif !important;
-	font-weight: 700 !important;
+    z-index:100000;
 }
 </style>
 </head>
 <body>
 <!-- Main container -->
 <div class="page-container">
-    <!-- welcome-top-bloc-mobile --><div class="bloc bg-lines-h-bg bg-repeat hidden-lg hidden-md bgc-white l-bloc hidden-sm" id="welcome-top-bloc-mobile">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<h4 class="mg-clear text-center tc-medium-jungle-green sm-shadow gurmukhi-font">
-					ਗੁਰਦੁਅਾਰਾ ਪ੍ਰਭੁ ਮਿਲਣੈ ਕਾ ਚਾੳੁ, ਮੋਗਾ
-				</h4>
-			</div>
-		</div>
-	</div>
-</div><!-- welcome-top-bloc-mobile END --><!-- welcome-top-bloc-tablet --><div class="bloc bg-lines-h-bg bg-repeat hidden-lg hidden-md bgc-white l-bloc hidden-xs" id="welcome-top-bloc-tablet">
-	<div class="container bloc-sm">
-		<div class="row">
-			<div class="col-sm-12">
-				<h4 class="mg-clear text-center tc-medium-jungle-green sm-shadow gurmukhi-font">
-					ਗੁਰਦੁਅਾਰਾ ਪ੍ਰਭੁ ਮਿਲਣੈ ਕਾ ਚਾੳੁ, ਮੋਗਾ
-				</h4>
-			</div>
-		</div>
-	</div>
-</div><!-- welcome-top-bloc-tablet END --><!-- welcome-bloc-desktop --><div class="bloc bloc-fill-screen lake-hero-bloc hidden-sm hidden-xs bgc-white welcome-bloc bg-welcome-page-3-1 d-bloc bg-tr-edge " id="welcome-bloc-desktop">
-	<div class="container">
-		<div class="row hidden-sm hidden-xs" id="welcome-desktop-row">
-			<div class="col-sm-7">
-				<div class="panel panel-rd welcome-box-shadow bgc-carrot-orange">
-					<div class="panel-body">
-						<h1 class="mg-md  text-center lg-shadow tc-white gurmukhi-font">
-							ਗੁਰਦੁਅਾਰਾ ਪ੍ਰਭੁ ਮਿਲਣੈ ਕਾ ਚਾੳੁ<br>
-						</h1>
-						<h3 class="mg-md text-center lg-shadow tc-white  gurmukhi-font">
-							ਬ੍ਰਹਮ ਗਿਆਨ ਕੇਂਦਰ, ਮੋਗਾ<br>
-						</h3>
-					</div>
-				</div>
-				<div class="row voffset-lg">
-					<div class="col-sm-12">
-						<a href="home.html" class="btn   btn-lg onethird-width-button btn-d blue-hover-button">Home</a><a href="live-radio.html" class="btn   btn-lg onethird-width-button btn-d yellow-hover-button">Live Radio</a><a href="live-video.html" class="btn   btn-lg onethird-width-button btn-d red-hover-button">Live Video</a>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-12">
-						<a href="about-bhai-sahib.html" class="btn   btn-lg pull-left full-width-button btn-d orange-hover-button">About Us</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-5">
-			</div>
-		</div>
-	</div>
-</div><!-- welcome-bloc-desktop END --><!-- welcome-bloc-mobile --><div class="bloc bloc-fill-screen lake-hero-bloc bgc-white hidden-lg hidden-md welcome-bloc bg-welcome-phone-TEST d-bloc" id="welcome-bloc-mobile">
+    <!-- bloc-1 --><div class="bloc bloc-fill-screen welcome-bloc bg-welcome-page bg-center bgc-splashed-white l-bloc" id="bloc-1">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 			</div>
 		</div>
 	</div>
-</div><!-- welcome-bloc-mobile END --><!-- welcome-bottom-bloc-mobile --><div class="bloc hidden-lg hidden-md bg-lines-h-bg bg-repeat bgc-white l-bloc hidden-sm welcome-bottom-bloc" id="welcome-bottom-bloc-mobile">
+</div><!-- bloc-1 END --><!-- bloc-2 --><div class="bloc l-bloc bgc-splashed-white full-width-bloc welcome-bottom-bloc hidden-xs" id="bloc-2">
 	<div class="container">
-		<div class="row" id="welcome-mobile-button-row">
+		<div class="row">
 			<div class="col-sm-12">
 				
-					<div class="wrapper text-center">
-        <div class="btn-group">
-			<a class="btn btn-carrot-orange" href="index.html" data-page="1"><span class="fa fa-home icon-spacer"></span>Home</a> 
-			<a class="btn btn-dark-gray" href="live-radio.html"><span class="fa fa-music icon-spacer"></span>Live Radio</a> 
-			<a class="btn btn-blue-ncs" href="live-video.html"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
-</div></div>
+					<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <a href="home.html" class="btn orange-home-buttons btn-lg" role="button"> <span class="fa fa-home icon-spacer"></span> Home </a>
+  <a href="live-video.html" class="btn orange-home-buttons btn-lg" role="button"> <span class="fa fa-video-camera icon-spacer"></span> Video </a>
+  <a href="live-radio.html" class="btn orange-home-buttons btn-lg" role="button"> <span class="fa fa-music icon-spacer"></span> Radio </a>
+  <a href="about-bapuji.html" class="btn orange-home-buttons btn-lg" role="button"> <span class="fa fa-info icon-spacer"></span> About Us</a>
+</div>
 					
 				</div>
 			</div>
-			<div class="row hide-button-row">
-					<div class="col-sm-12">
-						<a href="index.html" class="btn   pull-left btn-carrot-orange btn-sm"><span class="fa fa-home icon-spacer"></span>Home</a><a href="index.html" class="btn   pull-left btn-sm btn-dark-gray"><span class="fa fa-music icon-spacer"></span>Live Radio</a><a href="index.html" class="btn   pull-left btn-sm btn-blue-ncs"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
-					</div>
-				</div>
 		</div>
 	</div>
 	
-</div><!-- welcome-bottom-bloc-mobile END --><!-- welcome-bottom-bloc-tablet --><div class="bloc hidden-lg hidden-md bg-lines-h-bg bg-repeat bgc-white l-bloc hidden-xs welcome-bottom-bloc" id="welcome-bottom-bloc-tablet">
-	<div class="container bloc-sm">
-		<div class="row" id="welcome-mobile-button-row">
+</div><!-- bloc-2 END --><!-- bloc-3 --><div class="bloc l-bloc bgc-splashed-white full-width-bloc hidden-sm hidden-lg hidden-md welcome-bottom-bloc" id="bloc-3">
+	<div class="container">
+		<div class="row">
 			<div class="col-sm-12">
 				
-					<div class="wrapper text-center">
-        <div class="btn-group">
-			<a class="btn btn-carrot-orange" href="index.html" data-page="1"><span class="fa fa-home icon-spacer"></span>Home</a> 
-			<a class="btn btn-dark-gray" href="live-radio.html"><span class="fa fa-music icon-spacer"></span>Live Radio</a> 
-			<a class="btn btn-blue-ncs" href="live-video.html"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
-</div></div>
+					<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <a href="home.html" class="btn orange-home-buttons btn-sm" role="button"> <span class="fa fa-home icon-spacer"></span> Home </a>
+  <a href="live-video.html" class="btn orange-home-buttons btn-sm" role="button"> <span class="fa fa-video-camera icon-spacer"></span> Video </a>
+  <a href="live-radio.html" class="btn orange-home-buttons btn-sm" role="button"> <span class="fa fa-music icon-spacer"></span> Radio </a>
+  <a href="about-bapuji.html" class="btn orange-home-buttons btn-sm" role="button"> <span class="fa fa-info icon-spacer"></span> About Us</a>
+</div>
 					
 				</div>
 			</div>
-			<div class="row hide-button-row">
-					<div class="col-sm-12">
-						<a href="index.html" class="btn   pull-left btn-carrot-orange btn-sm"><span class="fa fa-home icon-spacer"></span>Home</a><a href="index.html" class="btn   pull-left btn-sm btn-dark-gray"><span class="fa fa-music icon-spacer"></span>Live Radio</a><a href="index.html" class="btn   pull-left btn-sm btn-blue-ncs"><span class="fa fa-video-camera icon-spacer"></span>Live Video</a>
-					</div>
-				</div>
 		</div>
 	</div>
 	
-</div><!-- welcome-bottom-bloc-tablet END -->
+</div><!-- bloc-3 END -->
 </div>
 <!-- Main container END -->
     
