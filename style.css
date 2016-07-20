@@ -39,6 +39,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
+.bloc-md{
+	padding:50px;
+}
 .bloc-sm{
 	padding:20px 50px;
 }
@@ -771,7 +774,7 @@ h3{
 }
 .welcome-bottom-bloc{
 }
-.welcome-bloc{
+.annual-smagams-bloc{
 }
 .special-page-text{
 	background-color:rgba(254,255,255,0.7);
@@ -806,6 +809,8 @@ h3{
 	font-size:18px;
 	font-family:"Lato";
 	font-weight:500;
+}
+.gurmukhi-text{
 }
 
 /* = Colour
@@ -859,6 +864,30 @@ h3{
 }
 .btn-blue-ncs:hover{
 	background:#00719f;
+	color:#FFFFFF!important;
+}
+.btn-charcoal{
+	background:#343C3F;
+	color:#FFFFFF!important;
+}
+.btn-charcoal:hover{
+	background:#2a3032;
+	color:#FFFFFF!important;
+}
+.btn-ua-blue{
+	background:#0037B3;
+	color:#FFFFFF!important;
+}
+.btn-ua-blue:hover{
+	background:#002c8f;
+	color:#FFFFFF!important;
+}
+.btn-carrot-orange{
+	background:#FC9316;
+	color:#FFFFFF!important;
+}
+.btn-carrot-orange:hover{
+	background:#ca7612;
 	color:#FFFFFF!important;
 }
 .wire-btn-blue-ncs{
@@ -970,7 +999,13 @@ h3{
 	background-image:url("img/lines-h-bg.png");
 }
 .bg-welcome-page-a{
-	background-image:url('img/welcome-page-a.jpg');
+	background-image:url("img/welcome-page-a.jpg");
+}
+.bg-welcome-page{
+	background-image:url("img/welcome-page.jpg");
+}
+.bg-BCD{
+	background-image:url("img/BCD.jpg");
 }
 
 

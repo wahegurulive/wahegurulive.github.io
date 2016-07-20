@@ -15,7 +15,9 @@
 	<script src="./js/bootstrap.min.js"></script>
 	<script src="./js/blocs.min.js"></script>
     <title>Suggestions</title>
-
+<script>window.lazySizesConfig=window.lazySizesConfig ||{};lazySizesConfig.preloadAfterLoad=true;lazySizesConfig.loadMode=0;</script>
+<style>.lazyload{opacity: 0;}.lazyloading{opacity: 0.5; transition: opacity 300ms; background: url(img/pageload-spinner.gif) no-repeat center;}.lazyloaded{opacity: 1; transition: opacity 300ms;}</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/2.0.0/lazysizes.min.js" async=""></script>
 </head>
 <body>
 <!-- Main container -->
@@ -99,7 +101,20 @@
 									<a href="about-gurdwara-sahib.html" class="ltc-charcoal">Gurdwara Sahib</a>
 								</li>
 								<li>
-									<a href="annual-smagams.html" class="ltc-charcoal">Annual Smagams</a>
+									<div class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Annual Smagams<span class="caret"></span></a>
+										<ul class="dropdown-menu" role="menu">
+											<li>
+												<a href="bandhi-chhorh-diwas.html">Bandhi Chhorh Diwas</a>
+											</li>
+											<li>
+												<a href="index.html">March Camp</a>
+											</li>
+											<li>
+												<a href="index.html">December Camp</a>
+											</li>
+										</ul>
+									</div>
 								</li>
 							</ul>
 						</div>
@@ -146,14 +161,14 @@
 			</div>
 			<div class="col-sm-8">
 				
-					<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdwJb-cDDOqWW__Z5ULkvFM4cxIQHP5fvgvGaF5SEE4NoBHKw/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+					<iframe src="about:blank" data-src="https://docs.google.com/forms/d/e/1FAIpQLSdwJb-cDDOqWW__Z5ULkvFM4cxIQHP5fvgvGaF5SEE4NoBHKw/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0" class="lazyload">Loading...</iframe>
 					
 				</div>
 			</div>
 		</div>
 	</div>
 	
-</div><!-- bloc-16 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-33 --><div class="bloc bg-lines-h-bg bg-repeat bgc-splashed-white l-bloc" id="bloc-33">
+</div><!-- bloc-16 END --><!-- ScrollToTop Button --><a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a><!-- ScrollToTop Button END--><!-- Footer - bloc-34 --><div class="bloc bg-lines-h-bg bg-repeat bgc-splashed-white l-bloc" id="bloc-34">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-md-offset-3">
@@ -184,7 +199,7 @@
 			</div>
 		</div>
 	</div>
-</div><!-- Footer - bloc-33 END --><!-- Footer - bloc-34 --><div class="bloc bg-lines-h-bg bg-repeat bgc-splashed-white l-bloc" id="bloc-34">
+</div><!-- Footer - bloc-34 END --><!-- Footer - bloc-35 --><div class="bloc bg-lines-h-bg bg-repeat bgc-splashed-white l-bloc" id="bloc-35">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-9">
@@ -197,7 +212,7 @@
 			</div>
 		</div>
 	</div>
-</div><!-- Footer - bloc-34 END -->
+</div><!-- Footer - bloc-35 END -->
 </div>
 <!-- Main container END -->
     
