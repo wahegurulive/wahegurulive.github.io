@@ -39,8 +39,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
-.bloc-md{
-	padding:50px;
+.bloc-lg{
+	padding:100px 50px;
 }
 .bloc-sm{
 	padding:20px 50px;
@@ -231,19 +231,15 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 100;
 	font-family: Josefin Sans;
 }
-#bloc-17 h2{
+#bloc-18 h2{
 	font-family: Josefin Sans;
 }
-#bloc-19 h2{
+#bloc-20 h2{
 	font-weight: 100;
-	font-family: Josefin Sans;
-}
-#bloc-21 h2{
-	font-weight: 300;
 	font-family: Josefin Sans;
 }
 #bloc-22 h2{
-	font-weight: 100;
+	font-weight: 300;
 	font-family: Josefin Sans;
 }
 #bloc-23 h2{
@@ -258,11 +254,15 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 100;
 	font-family: Josefin Sans;
 }
-#bloc-27 h3{
+#bloc-26 h2{
+	font-weight: 100;
+	font-family: Josefin Sans;
+}
+#bloc-28 h3{
 	font-weight: 800;
 	font-family: Josefin Sans;
 }
-#bloc-29 h2{
+#bloc-30 h2{
 	font-weight: 100;
 	font-family: Josefin Sans;
 }
@@ -431,6 +431,18 @@ button{
 .btn-wire:hover{
 	background:transparent!important;
 	border:2px solid transparent;
+}
+.a-btn{
+	padding: 6px 10px 6px 0;
+	line-height: 1.42857143;
+	display:inline-block;
+}
+.text-center .a-btn{
+	padding: 6px 0;
+}
+.a-block{
+	width:100%;
+	text-align: left;
 }
 .icon-spacer{
 	margin-right:5px;
@@ -650,6 +662,7 @@ a[data-lightbox]:hover img{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Ubuntu";
+	color:#343C3F!important;
 }
 .container{
 	max-width:1024px;
@@ -742,19 +755,6 @@ h3{
 .mount-italy-hero-text-sub-s{
 	font-size:34px;
 }
-.full-width-button{
-	display:block;
-	width:98%;
-}
-.onethird-width-button{
-	width:32%;
-}
-.hide-button-row{
-	display:none;
-}
-.welcome-box-shadow{
-	box-shadow:0px 1px 9px #000000;
-}
 .blue-hover-button{
 }
 .blue-hover-button:hover{
@@ -793,24 +793,18 @@ h3{
 	background-color:#FEFFFF;
 	color:#ED9622!important;
 }
-.blocs-team-title{
-	color:#1d1d1d;
-	font-size:50px;
-	font-family:"Lato";
-	font-weight:300;
-}
-.blocs-team-header{
-	color:#1d1d1d;
-	font-size:38px;
-	font-family:"Lato";
-	font-weight:300;
-}
-.blocs-team-sub{
-	font-size:18px;
-	font-family:"Lato";
-	font-weight:500;
-}
 .gurmukhi-text{
+}
+.welcome-bloc{
+}
+.tab-content{
+}
+.hide-element{
+	display:none;
+}
+.kirpatransparent{
+	background-color:rgba(0,2,0,0.7);
+	color:rgba(255,250,254,0.0)!important;
 }
 
 /* = Colour
@@ -818,8 +812,8 @@ h3{
 
 /* Background colour styles */
 
-.bgc-splashed-white{
-	background-color:#FCFEFF;
+.bgc-white{
+	background-color:#FDFFFF;
 }
 /* Text colour styles */
 
@@ -907,12 +901,6 @@ h3{
 }
 .ltc-blue-ncs:hover{
 	color:#00719f!important;
-}
-.ltc-electric-green{
-	color:#00C900!important;
-}
-.ltc-electric-green:hover{
-	color:#00a100!important;
 }
 /* Icon colour styles */
 
@@ -1007,6 +995,84 @@ h3{
 .bg-BCD{
 	background-image:url("img/BCD.jpg");
 }
+.bg-MC{
+	background-image:url("img/MC.jpg");
+}
+.bg-waheguru-100x100-orange{
+	background-image:url("img/waheguru-100x100-orange.jpg");
+}
+.bg-waheguru-100x100{
+	background-image:url("img/waheguru-100x100.jpg");
+}
+.bg-MC{
+	background-image:url("img/MC.jpg");
+}
+.bg-DC{
+	background-image:url('img/DC.jpg');
+}
+.bg-waheguru-100x100{
+	background-image:url('img/waheguru-100x100.jpg');
+}
+.bg-Special-Page-1-F{
+	background-image:url('img/Special-Page-1-F.jpg');
+}
+.bg-welcome-page-3-1{
+	background-image:url('img/welcome-page-3.1.jpg');
+}
+.bg-GS{
+	background-image:url('img/GS.JPG');
+}
+.bg-waheguru-100x100{
+	background-image:url('img/waheguru-100x100.jpg');
+}
+.bg-h-bapuji{
+	background-image:url('img/h_bapuji.jpg');
+}
+.bg-welcome-page{
+	background-image:url('img/welcome-page.jpg');
+}
+.bg-mountains-italy{
+	background-image:url('img/mountains-italy.jpg');
+}
+.bg-lake{
+	background-image:url('img/lake.jpg');
+}
+.bg-map-overlay{
+	background-image:url('img/map-overlay.png');
+}
+.bg-golden-gate-overlay{
+	background-image:url('img/golden-gate-overlay.png');
+}
+.bg-path-overlay{
+	background-image:url('img/path-overlay.png');
+}
+.bg-camera-overlay{
+	background-image:url('img/camera-overlay.png');
+}
+.bg-desk-equipment{
+	background-image:url('img/desk-equipment.jpg');
+}
+.bg-apple-watch{
+	background-image:url('img/apple-watch.jpg');
+}
+.bg-field{
+	background-image:url('img/field.jpg');
+}
+.bg-walkway{
+	background-image:url('img/walkway.jpg');
+}
+.bg-crosses-l-bg{
+	background-image:url('img/crosses-l-bg.png');
+}
+.bg-squared-bg{
+	background-image:url('img/squared-bg.png');
+}
+.bg-tile-d-bg{
+	background-image:url('img/tile-d-bg.png');
+}
+.bg-city-overlay{
+	background-image:url('img/city-overlay.png');
+}
 
 
 
@@ -1018,11 +1084,12 @@ h3{
         padding-left: 20px; 
         padding-right: 20px;  
     }
-    .bloc.full-width-bloc{
+    .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
         padding-left: 0; 
         padding-right: 0;  
     }
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
 @media (max-width: 768px)
 {
     .container{width:100%;}
