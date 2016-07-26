@@ -258,10 +258,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-weight: 100;
 	font-family: Josefin Sans;
 }
-#bloc-28 h3{
-	font-weight: 800;
-	font-family: Josefin Sans;
-}
 #bloc-30 h2{
 	font-weight: 100;
 	font-family: Josefin Sans;
@@ -462,6 +458,25 @@ button{
 	font-size:30px!important;
 }
 
+/* Image Frame */
+.img-frame,.img-frame-md,.img-frame-lg,.img-frame-rd,.img-frame-rd-md,.img-frame-rd-lg{
+	background:#FFF;
+	border:1px solid rgba(0,0,0,0.1);
+	box-shadow:0 2px 2px rgba(0,0,0,0.05);
+	padding:4px;
+}
+.img-frame{
+	border-radius:3px;
+}
+.img-frame-md,.img-frame-lg{
+	border-radius:6px;
+}
+.img-frame-md,.img-frame-rd-md{
+	padding:8px;
+}
+.img-frame-lg,.img-frame-rd-lg{
+	padding:14px;
+}
 
 /* = Text & Icon Styles
 -------------------------------------------------------------- */
@@ -786,12 +801,12 @@ h3{
 .welcome-top-bloc{
 }
 .orange-home-buttons{
-	background-color:#ED9622;
-	color:#FEFFFF!important;
+	background-color:#006FC0;
+	color:#FFFFFF!important;
 }
 .orange-home-buttons:hover{
 	background-color:#FEFFFF;
-	color:#ED9622!important;
+	color:#006FBF!important;
 }
 .gurmukhi-text{
 }
@@ -805,6 +820,15 @@ h3{
 .kirpatransparent{
 	background-color:rgba(0,2,0,0.7);
 	color:rgba(255,250,254,0.0)!important;
+}
+.all{
+}
+a{
+	color:#FC9316!important;
+}
+.gurmukhi-para{
+	font-weight:normal;
+	font-size:16px;
 }
 
 /* = Colour
@@ -825,6 +849,9 @@ h3{
 }
 .tc-carrot-orange{
 	color:#FC9316!important;
+}
+.bgc-1{
+	background-color:#343C3F;
 }
 /* Button colour styles */
 
@@ -1008,70 +1035,73 @@ h3{
 	background-image:url("img/MC.jpg");
 }
 .bg-DC{
-	background-image:url('img/DC.jpg');
+	background-image:url("img/DC.jpg");
 }
 .bg-waheguru-100x100{
-	background-image:url('img/waheguru-100x100.jpg');
+	background-image:url("img/waheguru-100x100.jpg");
 }
 .bg-Special-Page-1-F{
-	background-image:url('img/Special-Page-1-F.jpg');
+	background-image:url("img/Special-Page-1-F.jpg");
 }
 .bg-welcome-page-3-1{
-	background-image:url('img/welcome-page-3.1.jpg');
+	background-image:url("img/welcome-page-3.1.jpg");
 }
 .bg-GS{
-	background-image:url('img/GS.JPG');
+	background-image:url("img/GS.JPG");
 }
 .bg-waheguru-100x100{
-	background-image:url('img/waheguru-100x100.jpg');
+	background-image:url("img/waheguru-100x100.jpg");
 }
 .bg-h-bapuji{
-	background-image:url('img/h_bapuji.jpg');
+	background-image:url("img/h_bapuji.jpg");
 }
 .bg-welcome-page{
-	background-image:url('img/welcome-page.jpg');
+	background-image:url("img/welcome-page.jpg");
 }
 .bg-mountains-italy{
-	background-image:url('img/mountains-italy.jpg');
+	background-image:url("img/mountains-italy.jpg");
 }
 .bg-lake{
-	background-image:url('img/lake.jpg');
+	background-image:url("img/lake.jpg");
 }
 .bg-map-overlay{
-	background-image:url('img/map-overlay.png');
+	background-image:url("img/map-overlay.png");
 }
 .bg-golden-gate-overlay{
-	background-image:url('img/golden-gate-overlay.png');
+	background-image:url("img/golden-gate-overlay.png");
 }
 .bg-path-overlay{
-	background-image:url('img/path-overlay.png');
+	background-image:url("img/path-overlay.png");
 }
 .bg-camera-overlay{
-	background-image:url('img/camera-overlay.png');
+	background-image:url("img/camera-overlay.png");
 }
 .bg-desk-equipment{
-	background-image:url('img/desk-equipment.jpg');
+	background-image:url("img/desk-equipment.jpg");
 }
 .bg-apple-watch{
-	background-image:url('img/apple-watch.jpg');
+	background-image:url("img/apple-watch.jpg");
 }
 .bg-field{
-	background-image:url('img/field.jpg');
+	background-image:url("img/field.jpg");
 }
 .bg-walkway{
-	background-image:url('img/walkway.jpg');
+	background-image:url("img/walkway.jpg");
 }
 .bg-crosses-l-bg{
-	background-image:url('img/crosses-l-bg.png');
+	background-image:url("img/crosses-l-bg.png");
 }
 .bg-squared-bg{
-	background-image:url('img/squared-bg.png');
+	background-image:url("img/squared-bg.png");
 }
 .bg-tile-d-bg{
-	background-image:url('img/tile-d-bg.png');
+	background-image:url("img/tile-d-bg.png");
 }
 .bg-city-overlay{
-	background-image:url('img/city-overlay.png');
+	background-image:url("img/city-overlay.png");
+}
+.bg-lines-h-bg{
+	background-image:url("img/lines-h-bg.png");
 }
 
 
